@@ -70,7 +70,7 @@ export function SlideTicket() {
           </div>
 
           {/* Ticket 2: 2-Day Pass */}
-          <div className="w-full md:w-1/2 relative bg-[#E0E0E0] p-1 shadow-[12px_12px_0px_rgba(255,255,255,0.2)] hover:shadow-[12px_12px_0px_#00F0FF] transform transition-transform duration-300 hover:scale-105 hover:rotate-2 group z-10 md:mt-12">
+          <div className="w-full md:w-1/2 relative bg-[#E0E0E0] p-1 shadow-[12px_12px_0px_rgba(255,255,255,0.2)] hover:shadow-[12px_12px_0px_#00F0FF] transform transition-transform duration-300 hover:scale-105 hover:rotate-2 group z-10">
             {/* Duct tape overlay */}
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-24 h-8 bg-[#E0E0E0]/90 rotate-[-5deg] mix-blend-screen opacity-90 z-20" />
             
