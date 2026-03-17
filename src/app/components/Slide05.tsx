@@ -24,7 +24,7 @@ export function Slide05() {
         {/* Header */}
         <div className="mb-8 md:mb-12 relative flex flex-col items-center justify-center w-full text-center">
           <h2 className="font-['JetBrains_Mono',monospace] text-[#00F0FF] text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-2 md:mb-4">
-            // <span className="bg-[#00F0FF] text-[#0A0A0A] px-1 py-0.5 ml-1">Your Brand in the Wild</span>
+            <span className="bg-[#00F0FF] text-[#0A0A0A] px-1 py-0.5 ml-1">// Your Brand in the Wild</span>
           </h2>
           <h3 className="font-black text-4xl md:text-5xl lg:text-6xl text-[#FFFFFF] uppercase tracking-tighter leading-[0.9] text-center mix-blend-difference">
             Don't just be seen.<br/>
@@ -39,7 +39,7 @@ export function Slide05() {
           <div className="flex flex-col group cursor-default">
             <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1761618291331-535983ae4296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGFnZSUyMGxlZCUyMHNjcmVlbiUyMGNvbmNlcnR8ZW58MXx8fHwxNzczNDMzODMyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Slide6.jpeg"
                 alt="Main Stage LED Screen"
                 className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 scale-100 group-hover:scale-110"
               />
@@ -51,15 +51,15 @@ export function Slide05() {
               <h4 className="font-black text-[#FFFFFF] text-2xl uppercase tracking-wider">Massive Reach</h4>
             </div>
             <p className="font-['JetBrains_Mono',monospace] text-[#FFFFFF]/80 text-sm leading-relaxed border-l-2 border-[#00F0FF]/30 pl-4">
-              Direct exposure to <span className="text-[#00F0FF] font-bold">4,000+ hardcore fans</span> and <span className="text-[#FFFFFF] font-bold">10,000+ weekend visitors</span> flooding into Pogradec. Your brand becomes the backdrop to their experience.
+              Direct exposure to <span className="text-[#00F0FF] font-bold">4,000+ hardcore fans</span> and <span className="text-[#FFFFFF] font-bold">6,000+ visitors</span> flooding into Pogradec. Your brand becomes the backdrop to their experience.
             </p>
           </div>
 
           {/* Gallery Item 2: Heavy Promotions */}
-          <div className="flex flex-col group cursor-default md:translate-y-8">
+          <div className="flex flex-col group cursor-default">
             <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1570143276410-961207eea21f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwZmFuJTIwd2VhcmluZyUyMHQtc2hpcnQlMjBiYWNrfGVufDF8fHx8MTc3MzQzMzgzMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Fan wearing a festival t-shirt"
                 className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 scale-100 group-hover:scale-110"
               />
@@ -70,7 +70,7 @@ export function Slide05() {
               <h4 className="font-black text-[#FFFFFF] text-2xl uppercase tracking-wider">Heavy Promos</h4>
             </div>
             <p className="font-['JetBrains_Mono',monospace] text-[#FFFFFF]/80 text-sm leading-relaxed border-l-2 border-[#00F0FF]/30 pl-4">
-              Aggressive 360-degree promotions across national radio, digital blasts, and official merch. We turn the crowd into <span className="text-[#00F0FF] font-bold">walking billboards</span> for your brand.
+              360° promotion across digital media, institutional partners, and business networks, the festival offers <span className="text-[#00F0FF] font-bold">strong visibility,</span> and wide audience reach.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export function Slide05() {
           <div className="flex flex-col group cursor-default">
             <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1760822398802-09a6b6c4c15c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZXN0aXZhbCUyMG91dGRvb3IlMjB0ZW50JTIwaGFuZ291dHxlbnwxfHx8fDE3NzM0MzM4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1643139863038-7355941e9e89?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Festival Brand Zone Tent"
                 className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 scale-100 group-hover:scale-110"
               />
@@ -89,7 +89,7 @@ export function Slide05() {
               <h4 className="font-black text-[#FFFFFF] text-2xl uppercase tracking-wider">Maximum ROI</h4>
             </div>
             <p className="font-['JetBrains_Mono',monospace] text-[#FFFFFF]/80 text-sm leading-relaxed border-l-2 border-[#00F0FF]/30 pl-4">
-              Real metrics, real impact. Drive your <span className="text-[#00F0FF] font-bold">Return on Investment</span> through targeted on-site activations, VIP engagement, and measurable post-festival analytics.
+              Generate measurable ROI through targeted on-site activations, <span className="text-[#00F0FF] font-bold">high-value audience engagement,</span> and post-festival analytics that show real impact.
             </p>
           </div>
 

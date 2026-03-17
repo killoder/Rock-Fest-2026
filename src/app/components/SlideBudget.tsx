@@ -35,7 +35,7 @@ export function SlideBudget() {
           </div>
 
           <p className="text-[#FFFFFF]/80 text-base md:text-lg leading-relaxed max-w-md border-l-4 border-[#00F0FF] pl-6 py-2">
-            Every lek is allocated to maximize the raw energy and safety of the event. Total transparency for our partners, showing exactly where the investment goes to ensure a massive impact.
+            Every ALL is allocated to maximize the raw energy and safety of the event. Total transparency for our partners, showing exactly where the investment goes to ensure a massive impact.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export function SlideBudget() {
               <div className="group border-b border-[#FFFFFF]/10 pb-4 hover:border-[#00F0FF] transition-colors duration-300">
                 <div className="text-[#FFFFFF]/60 text-xs font-bold tracking-widest uppercase mb-1">Production & Stage</div>
                 <div className="text-[#FFFFFF] group-hover:text-[#00F0FF] text-2xl md:text-3xl font-bold transition-colors duration-300">
-                  2,500,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
+                  500,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ export function SlideBudget() {
               <div className="group border-b border-[#FFFFFF]/10 pb-4 hover:border-[#00F0FF] transition-colors duration-300">
                 <div className="text-[#FFFFFF]/60 text-xs font-bold tracking-widest uppercase mb-1">Talent & Artists</div>
                 <div className="text-[#FFFFFF] group-hover:text-[#00F0FF] text-2xl md:text-3xl font-bold transition-colors duration-300">
-                  1,800,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
+                  1,500,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
                 </div>
               </div>
 
@@ -65,7 +65,7 @@ export function SlideBudget() {
               <div className="group border-b border-[#FFFFFF]/10 pb-4 hover:border-[#00F0FF] transition-colors duration-300">
                 <div className="text-[#FFFFFF]/60 text-xs font-bold tracking-widest uppercase mb-1">Marketing & PR</div>
                 <div className="text-[#FFFFFF] group-hover:text-[#00F0FF] text-2xl md:text-3xl font-bold transition-colors duration-300">
-                  800,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
+                  200,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
                 </div>
               </div>
 
@@ -73,7 +73,7 @@ export function SlideBudget() {
               <div className="group border-b border-[#FFFFFF]/10 pb-4 hover:border-[#00F0FF] transition-colors duration-300">
                 <div className="text-[#FFFFFF]/60 text-xs font-bold tracking-widest uppercase mb-1">Security & Logistics</div>
                 <div className="text-[#FFFFFF] group-hover:text-[#00F0FF] text-2xl md:text-3xl font-bold transition-colors duration-300">
-                  500,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
+                  300,000 <span className="text-sm md:text-base text-[#FFFFFF]/50">ALL</span>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ export function SlideBudget() {
               <div>
                 <div className="text-[#00F0FF] text-sm font-bold tracking-[0.2em] uppercase mb-2">// Total Projected</div>
                 <div className="text-[#FFFFFF] text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter">
-                  5,600,000 <span className="text-xl md:text-2xl text-[#FFFFFF]/50 font-normal">ALL</span>
+                  2,500,000 <span className="text-xl md:text-2xl text-[#FFFFFF]/50 font-normal">ALL</span>
                 </div>
               </div>
               <div className="text-[#FFFFFF]/40 text-xs text-right max-w-[200px]">

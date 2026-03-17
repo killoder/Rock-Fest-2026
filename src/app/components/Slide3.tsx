@@ -12,7 +12,7 @@ export function Slide3() {
     },
     { 
       value: "20+", 
-      label: "Acts", 
+      label: "Artists", 
       desc: "The best emerging and established local talent" 
     },
     { 

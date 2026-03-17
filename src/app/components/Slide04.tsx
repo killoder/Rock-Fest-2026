@@ -95,7 +95,7 @@ export function Slide04() {
                 </div>
                 <div className="flex items-start">
                   <span className="font-['Inter_Tight',sans-serif] font-black text-2xl sm:text-3xl text-[#0A0A0A] mr-3 mt-1 leading-none shrink-0">-</span>
-                  <h4 className="font-['Inter_Tight',sans-serif] font-black text-3xl sm:text-4xl text-[#0A0A0A] uppercase leading-[1.1] tracking-tight text-left opacity-80">
+                  <h4 className="font-['Inter_Tight',sans-serif] font-black text-3xl sm:text-4xl text-[#0A0A0A] uppercase leading-[1.1] tracking-tight text-left opacity-90">
                     Eugent Bushpepa
                   </h4>
                 </div>
@@ -103,7 +103,7 @@ export function Slide04() {
             </div>
             
             {/* Duct Tape */}
-            <div className="absolute bottom-4 -right-6 sm:right-10 w-24 h-8 bg-[#E0E0E0]/80 rotate-[25deg] z-30 mix-blend-difference" />
+            <div className="absolute bottom-55 -right-6 sm:right-10 w-24 h-8 bg-[#E0E0E0]/80 rotate-[25deg] z-30 mix-blend-difference" />
           </div>
 
         </div>
@@ -112,7 +112,7 @@ export function Slide04() {
         <div className="relative w-full flex justify-center mt-12 sm:mt-16 z-30">
           <div className="bg-[#0A0A0A] border-2 border-[#00F0FF] p-4 sm:p-6 transform rotate-[-2deg] shadow-[6px_6px_0px_#00F0FF] hover:rotate-[0deg] transition-transform duration-300">
             <h5 className="font-['JetBrains_Mono',monospace] text-[#00F0FF] text-sm tracking-widest uppercase text-center mb-3">
-              // Support Acts Both Days //
+              // Support //
             </h5>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6">
               <span className="font-['Inter_Tight',sans-serif] font-black text-2xl sm:text-3xl text-white uppercase tracking-tight">

@@ -9,12 +9,12 @@ export function Slide02() {
         <ImageWithFallback
           src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Slide22.jpeg"
           alt="Massive crowd at a rock music festival"
-          className="w-full h-full object-cover object-top transition-all duration-700 grayscale contrast-150 brightness-50 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:scale-105"
+          className="w-full h-full object-cover object-top transition-all duration-700 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:scale-105"
         />
 
         {/* Halftone Pattern Overlay */}
         <div 
-          className="absolute inset-0 z-0 mix-blend-multiply opacity-80 pointer-events-none transition-opacity duration-700 group-hover:opacity-0" 
+          className="absolute inset-0 z-0 mix-blend-multiply opacity-70 pointer-events-none transition-opacity duration-700 group-hover:opacity-0" 
           style={{
             backgroundImage: 'radial-gradient(circle, #0A0A0A 2px, transparent 2px)',
             backgroundSize: '6px 6px'
@@ -31,7 +31,7 @@ export function Slide02() {
         {/* Decorative Badge */}
         <div className="absolute top-8 left-8 border-2 border-[#00F0FF] p-4 bg-[#0A0A0A]/80 backdrop-blur-sm shadow-[4px_4px_0px_#00F0FF] z-10 font-['JetBrains_Mono',monospace] text-[#00F0FF] font-bold tracking-widest uppercase text-sm pointer-events-none">
           // SHERLOCK IRISH PUB <br/>
-          // EST. LIVE CREDS
+          // Rock Fest 2026
         </div>
       </div>
 
@@ -47,21 +47,21 @@ export function Slide02() {
           <div className="border-[15px] border-[#FFFFFF] bg-[#0A0A0A] p-6 sm:p-8 transform transition-transform hover:-translate-y-2 hover:border-[#00F0FF] duration-300 relative group">
             <div className="absolute -top-4 -left-4 bg-[#00F0FF] text-[#0A0A0A] font-bold px-3 py-1 text-sm tracking-widest">01</div>
             <h3 className="text-[#00F0FF] font-bold text-xl mb-3 tracking-widest uppercase">The Mission</h3>
-            <p className="text-[#FFFFFF] text-sm md:text-base leading-relaxed">Reviving the urban pulse of Pogradec through authentic rock culture.</p>
+            <p className="text-[#FFFFFF] text-sm md:text-base leading-relaxed">Bringing rock, culture, and new energy to the heart of Pogradec.</p>
           </div>
 
           {/* Box 2 */}
           <div className="border-[15px] border-[#FFFFFF] bg-[#0A0A0A] p-6 sm:p-8 transform transition-transform hover:-translate-y-2 hover:border-[#00F0FF] duration-300 relative group">
             <div className="absolute -top-4 -left-4 bg-[#00F0FF] text-[#0A0A0A] font-bold px-3 py-1 text-sm tracking-widest">02</div>
             <h3 className="text-[#00F0FF] font-bold text-xl mb-3 tracking-widest uppercase">The Scale</h3>
-            <p className="text-[#FFFFFF] text-sm md:text-base leading-relaxed">2 High-octane days of live music and creative arts.</p>
+            <p className="text-[#FFFFFF] text-sm md:text-base leading-relaxed">2 High-energy days of live music and creative arts.</p>
           </div>
 
           {/* Box 3 */}
           <div className="border-[15px] border-[#FFFFFF] bg-[#0A0A0A] p-6 sm:p-8 transform transition-transform hover:-translate-y-2 hover:border-[#00F0FF] duration-300 relative group">
             <div className="absolute -top-4 -left-4 bg-[#00F0FF] text-[#0A0A0A] font-bold px-3 py-1 text-sm tracking-widest">03</div>
             <h3 className="text-[#00F0FF] font-bold text-xl mb-3 tracking-widest uppercase">The Network</h3>
-            <p className="text-[#FFFFFF] text-sm md:text-base leading-relaxed">A curated ecosystem of artists, tourists, and local legends.</p>
+            <p className="text-[#FFFFFF] text-sm md:text-base leading-relaxed">Connecting artists, audiences, tourists, and the local community.</p>
           </div>
 
         </div>

@@ -55,7 +55,7 @@ export function Slide03() {
               </div>
               <span className="font-bold text-4xl md:text-5xl text-[#FFFFFF] relative z-10 tracking-tighter">20+</span>
             </div>
-            <h3 className="text-xl md:text-2xl font-bold text-[#00F0FF] mb-4 uppercase tracking-widest">// Acts</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-[#00F0FF] mb-4 uppercase tracking-widest">// Artists</h3>
             <p className="text-[#FFFFFF] text-sm md:text-base opacity-90 leading-relaxed">
               The best emerging and established local talent.
             </p>
@@ -72,7 +72,7 @@ export function Slide03() {
             </div>
             <h3 className="text-xl md:text-2xl font-bold text-[#00F0FF] mb-4 uppercase tracking-widest">// Countries</h3>
             <p className="text-[#FFFFFF] text-sm md:text-base opacity-90 leading-relaxed">
-              Reaching tourists from Albania, Korça, Ohrid, and Struga.
+              Tourists from Albania, Korça, Ohrid, and Struga.
             </p>
           </div>
 

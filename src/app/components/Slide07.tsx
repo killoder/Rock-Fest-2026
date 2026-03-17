@@ -6,7 +6,7 @@ export function Slide07() {
       {/* Background Image (Panorama Split) */}
       <div className="absolute inset-0 z-0 h-[60vh] md:h-[100vh]">
         <ImageWithFallback
-          src="https://th.bing.com/th/id/R.155f75dd92aadfe7dffa0cacadcf0a06?rik=q0F%2bZFpVGxp%2bsA&riu=http%3a%2f%2fkorcaplus1.weebly.com%2fuploads%2f1%2f2%2f3%2f5%2f123582483%2fbeach-in-pogradec_orig.jpg&ehk=35JNPo%2b3meiLtrZs8JaRb7c8aFJXjiVTBWItOoHTcS4%3d&risl=&pid=ImgRaw&r=0"
+          src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Pogradec.jpg"
           alt="Pogradec Lakefront at Dusk"
           className="w-full h-full object-cover grayscale contrast-125 brightness-50"
         />

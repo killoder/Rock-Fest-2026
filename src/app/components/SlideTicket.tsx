@@ -33,7 +33,7 @@ export function SlideTicket() {
       <div className="relative z-10 w-full max-w-5xl flex flex-col items-center justify-center">
         {/* Header */}
         <div className="mb-16 md:mb-20 text-center relative group">
-          <div className="absolute -top-6 -left-12 w-32 h-8 bg-[#00F0FF]/80 rotate-[-8deg] mix-blend-screen opacity-90" />
+          <div className="absolute top-10 -left-12 w-32 h-8 bg-[#00F0FF]/80 rotate-[-8deg] mix-blend-screen opacity-90" />
           <h2 className="font-['JetBrains_Mono',monospace] text-[#00F0FF] text-sm md:text-base font-bold tracking-[0.4em] uppercase mb-4 relative z-10">
             // The Toll
           </h2>
