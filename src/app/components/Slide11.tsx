@@ -95,7 +95,7 @@ export function Slide11() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1400px] flex flex-col gap-6 md:gap-8 h-full justify-center px-2 sm:px-4">
+      <div className="relative z-10 w-full max-w-[1400px] flex flex-col gap-6 md:gap-8 h-full justify-center px-2 sm:px-4 mb-6 md:mt-8">
         
         {/* Header Section */}
         <div className="flex flex-col items-start transform -rotate-2 animate-shake z-40 w-fit shrink-0">
