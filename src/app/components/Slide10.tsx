@@ -22,7 +22,7 @@ export function Slide10() {
         {/* Image 1: Motion Blur Crowd (Background Left) */}
         <div className="absolute left-[-10%] sm:left-[5%] top-[10%] w-[60%] sm:w-[45%] aspect-video rotate-[-12deg] z-10 shadow-[20px_20px_0px_rgba(0,0,0,0.9)] mix-blend-luminosity opacity-80 group hover:z-50 hover:opacity-100 hover:rotate-0 hover:scale-105 transition-all duration-300">
           <ImageWithFallback
-            src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Pit1.jpeg"
+            src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Pit1.webp"
             alt="Motion Blur Crowd"
             className="w-full h-full object-cover grayscale contrast-200"
           />
@@ -32,7 +32,7 @@ export function Slide10() {
         {/* Image 2: Red Light Silhouette (Foreground Center) */}
         <div className="absolute top-[20%] right-[10%] sm:right-[20%] w-[55%] sm:w-[40%] aspect-square rotate-[7deg] z-20 shadow-[15px_-15px_0px_rgba(204,255,0,0.5)] group hover:z-50 hover:rotate-0 hover:scale-105 transition-all duration-300">
           <ImageWithFallback
-            src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Pit2.JPG"
+            src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Pit2.webp"
             alt="Red Light Silhouette"
             className="w-full h-full object-cover contrast-[1.5] saturate-200 hue-rotate-90"
           /* Note: hue-rotate shifts the red to more of an acid green/orange mix depending on base, giving it a chaotic vibe */
@@ -43,7 +43,7 @@ export function Slide10() {
         {/* Image 3: Mosh Pit Aggressive (Bottom Left Overlapping) */}
         <div className="absolute bottom-[5%] left-[5%] sm:left-[15%] w-[70%] sm:w-[50%] aspect-[4/3] rotate-[-4deg] z-30 shadow-[-20px_20px_0px_rgba(255,69,0,0.6)] group hover:z-50 hover:rotate-0 hover:scale-105 transition-all duration-300">
           <ImageWithFallback
-            src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Pit%203.jpeg"
+            src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Pit%203.webp"
             alt="Aggressive Mosh Pit"
             className="w-full h-full object-cover object-top contrast-[1.8] brightness-90 grayscale"
           />

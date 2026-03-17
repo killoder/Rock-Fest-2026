@@ -39,7 +39,7 @@ export function Slide05() {
           <div className="flex flex-col group cursor-default">
             <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
-                src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Slide6.jpeg"
+                src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Slide6.webp"
                 alt="Main Stage LED Screen"
                 className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 scale-100 group-hover:scale-110"
               />

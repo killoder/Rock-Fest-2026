@@ -4,14 +4,14 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function Slide11() {
   const photos = [
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewind3.JPG",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewind3.webp",
       alt: "Screaming Singer",
       caption: "VOCAL CHORDS: SHREDDED",
       rotation: "rotate-[-3deg]",
       shadow: "shadow-[8px_8px_0px_#CCFF00]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewind1.jpeg",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewind1.webp",
       alt: "Punk Rock Crowd",
       caption: "THE MOMENT",
       rotation: "rotate-[4deg]",
@@ -25,49 +25,49 @@ export function Slide11() {
       shadow: "shadow-[10px_10px_0px_#CCFF00]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewind2.jpeg",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewind2.webp",
       alt: "Stage Dive",
       caption: "AUDIENCE",
       rotation: "rotate-[-5deg]",
       shadow: "shadow-[-12px_12px_0px_#FF4500]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewind6.JPG",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewind6.webp",
       alt: "Guitarist Shredding",
       caption: "FEEDBACK LOOP",
       rotation: "rotate-[5deg]",
       shadow: "shadow-[12px_-8px_0px_#CCFF00]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/rewind9.jpg",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/rewind9.webp",
       alt: "Heavy Metal Concert",
       caption: "THE SURGE",
       rotation: "rotate-[-4deg]",
       shadow: "shadow-[-8px_-10px_0px_#FF4500]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewind7.jpeg",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewind7.webp",
       alt: "Stage Smoke Silhouette",
       caption: "LIGHTS OUT",
       rotation: "rotate-[3deg]",
       shadow: "shadow-[8px_12px_0px_#CCFF00]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewind8.JPG",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewind8.webp",
       alt: "Festival Vibes",
       caption: "ROck ENERGY",
       rotation: "rotate-[-2deg]",
       shadow: "shadow-[-10px_-8px_0px_#FF4500]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Rewin12.jpeg",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Rewin12.webp",
       alt: "Band Performing Live",
       caption: "FULL VOLUME",
       rotation: "rotate-[4deg]",
       shadow: "shadow-[8px_10px_0px_#CCFF00]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/rewin321.jpeg",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/rewin321.webp",
       alt: "Guitar Performance",
       caption: "PURE CHAOS",
       rotation: "rotate-[-3deg]",

@@ -26,7 +26,7 @@ export function Slide1() {
     <div className="relative w-full h-full min-h-screen bg-[#0A0A0A] overflow-hidden flex flex-col items-center justify-center font-['Inter_Tight'] text-[#FFFFFF]">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 grayscale"
-        style={{ backgroundImage: `url('https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Slide1.jpeg')` }}
+        style={{ backgroundImage: `url('https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Slide1.webp')` }}
       />
       
       <GrainOverlay />

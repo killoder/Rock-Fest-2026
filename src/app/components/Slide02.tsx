@@ -7,7 +7,7 @@ export function Slide02() {
       <div className="relative w-full md:w-[50%] h-[50vh] md:h-screen bg-[#0A0A0A] group overflow-hidden">
         {/* Background Image (Grayscale + High Contrast) */}
         <ImageWithFallback
-          src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Slide22.jpeg"
+          src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Slide22.webp"
           alt="Massive crowd at a rock music festival"
           className="w-full h-full object-cover object-top transition-all duration-700 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:scale-105"
         />

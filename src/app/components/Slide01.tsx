@@ -6,7 +6,7 @@ export function Slide01() {
       {/* Background Image (Grayscale + High Contrast) */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/Slide1.jpeg"
+          src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Slide1.webp"
           alt="Rock Concert Crowd Silhouette"
           className="w-full h-full object-cover grayscale contrast-150 brightness-50"
         />
