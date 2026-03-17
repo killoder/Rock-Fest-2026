@@ -29,7 +29,7 @@ export function Slide03() {
         </div>
 
         {/* Data Matrix Elements */}
-        <div className="w-full flex flex-col md:flex-row justify-center items-start gap-12 md:gap-16 lg:gap-24 font-['JetBrains_Mono',monospace]">
+        <div className="w-full flex flex-col md:flex-row justify-center items-center md:items-start gap-12 md:gap-16 lg:gap-24 font-['JetBrains_Mono',monospace]">
           
           {/* Matrix Item 1 */}
           <div className="flex flex-col items-center max-w-[300px] text-center group">

@@ -88,7 +88,7 @@ export function Slide08() {
           </div>
 
           {/* Other Partners */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 lg:gap-6 w-full">
+          <div className="grid grid-cols-3 gap-4 lg:gap-6 w-full">
             {/* Partner 1 */}
             <div className="aspect-square bg-[#0A0A0A] border-[6px] border-[#FFFFFF] flex items-center justify-center p-4 text-center group hover:border-[#00F0FF] transition-colors duration-300 relative overflow-hidden">
               <div className="absolute inset-0 bg-[#FFFFFF] group-hover:bg-[#00F0FF] transform scale-y-0 group-hover:scale-y-100 origin-bottom transition-transform duration-500 z-0" />

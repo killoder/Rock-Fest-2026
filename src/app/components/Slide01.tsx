@@ -30,7 +30,7 @@ export function Slide01() {
       </div>
 
       {/* Main Content Container */}
-      <div className="relative z-10 w-full flex flex-col items-center justify-between min-h-screen py-16 px-4">
+      <div className="relative z-10 w-full flex flex-col items-center justify-between min-h-screen py-16 px-8">
         
         {/* Hooks - Top Block */}
         <div className="flex flex-col items-center gap-3 w-full max-w-4xl text-center font-['JetBrains_Mono',monospace] text-[#FFFFFF] text-xs sm:text-sm md:text-base font-bold tracking-[0.2em] uppercase">

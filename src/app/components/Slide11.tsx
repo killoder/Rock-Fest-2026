@@ -113,7 +113,7 @@ export function Slide11() {
               {photos.map((photo, i) => (
                 <div 
                   key={i} 
-                  className={`relative group bg-[#E0E0E0] p-2 pb-10 sm:p-3 sm:pb-12 border-2 sm:border-4 border-[#0A0A0A] ${photo.shadow} ${photo.rotation} hover:rotate-0 hover:scale-105 hover:z-50 transition-all duration-300 ease-[cubic-bezier(0.25,0.8,0.25,1)]`}
+                  className={`relative group bg-[#E0E0E0] m-6 p-2 pb-10 sm:p-3 sm:pb-12 border-2 sm:border-4 border-[#0A0A0A] ${photo.shadow} ${photo.rotation} hover:rotate-0 hover:scale-105 hover:z-50 transition-all duration-300 ease-[cubic-bezier(0.25,0.8,0.25,1)]`}
                 >
                   {/* Tape strips */}
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-20 h-6 bg-[#0A0A0A]/20 backdrop-blur-sm rotate-[-4deg] z-10" />

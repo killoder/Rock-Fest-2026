@@ -30,7 +30,7 @@ export function SlideTicket() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-5xl flex flex-col items-center justify-center">
+      <div className="relative z-10 w-full max-w-5xl flex flex-col items-center justify-center p-2">
         {/* Header */}
         <div className="mb-16 md:mb-20 text-center relative group">
           <div className="absolute top-10 -left-12 w-32 h-8 bg-[#00F0FF]/80 rotate-[-8deg] mix-blend-screen opacity-90" />
@@ -43,7 +43,7 @@ export function SlideTicket() {
         </div>
 
         {/* Tickets Container */}
-        <div className="w-full flex flex-col md:flex-row gap-8 lg:gap-16 items-center justify-center relative">
+        <div className="w-full flex flex-col md:flex-row gap-8 lg:gap-16 items-center justify-center relative px-2">
           
           {/* Ticket 1: 1-Day Pass */}
           <div className="w-full md:w-1/2 relative bg-[#E0E0E0] p-1 shadow-[12px_12px_0px_#00F0FF] transform transition-transform duration-300 hover:scale-105 hover:-rotate-2 group">
@@ -55,7 +55,7 @@ export function SlideTicket() {
                 [ Single Day ]
               </span>
               <h4 className="font-black text-[#00F0FF] text-4xl lg:text-5xl uppercase tracking-tighter leading-none mb-8">
-                1-Day<br/>Pass
+                1-Day<br className="hidden md:block"/><span className="md:hidden"> </span>Pass
               </h4>
               <div className="mt-auto pt-6 border-t-2 border-[#E0E0E0]/20 w-full">
                 <div className="font-['JetBrains_Mono',monospace] text-[#E0E0E0] text-3xl lg:text-4xl font-bold tracking-widest group-hover:text-[#00F0FF] transition-colors duration-300">
@@ -82,7 +82,7 @@ export function SlideTicket() {
                 [ Full Weekend ]
               </span>
               <h4 className="font-black text-[#E0E0E0] group-hover:text-[#00F0FF] transition-colors duration-300 text-4xl lg:text-5xl uppercase tracking-tighter leading-none mb-8">
-                2-Day<br/>Pass
+                2-Day<br className="hidden md:block"/><span className="md:hidden"> </span>Pass
               </h4>
               <div className="mt-auto pt-6 border-t-2 border-[#00F0FF]/30 w-full">
                 <div className="font-['JetBrains_Mono',monospace] text-[#00F0FF] text-4xl lg:text-5xl font-bold tracking-widest animate-glitch">

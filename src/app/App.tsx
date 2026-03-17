@@ -60,7 +60,7 @@ export default function App() {
   if (isMobile) {
     return (
       <main className="w-full min-h-screen bg-[#0A0A0A] selection:bg-[#CCFF00] selection:text-[#0A0A0A] overflow-x-hidden">
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full gap-16 pb-16">
           {slides.map((SlideComponent, idx) => (
             <div key={idx} className="w-full min-h-screen relative border-b border-[#E0E0E0]/10 last:border-0 flex flex-col justify-center">
               <SlideWrapper>

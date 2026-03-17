@@ -5,36 +5,36 @@ export function Slide05() {
     <div className="relative min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center p-4 sm:p-8 md:p-12 overflow-hidden w-full font-['Inter_Tight',sans-serif]">
       {/* Background with Faint Halftone & Film Grain */}
       <div className="absolute inset-0 z-0 opacity-40">
-        <div 
-          className="absolute inset-0 z-0 mix-blend-screen" 
+        <div
+          className="absolute inset-0 z-0 mix-blend-screen"
           style={{
             backgroundImage: 'radial-gradient(circle, #333333 1px, transparent 1px)',
             backgroundSize: '16px 16px'
-          }} 
+          }}
         />
-        <div 
-          className="absolute inset-0 mix-blend-overlay z-0 opacity-15" 
+        <div
+          className="absolute inset-0 mix-blend-overlay z-0 opacity-15"
           style={{
             backgroundImage: "url('data:image/svg+xml,%3Csvg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cfilter id=\"noiseFilter\"%3E%3CfeTurbulence type=\"fractalNoise\" baseFrequency=\"0.85\" numOctaves=\"3\" stitchTiles=\"stitch\"/%3E%3C/filter%3E%3Crect width=\"100%25\" height=\"100%25\" filter=\"url(%23noiseFilter)\"/%3E%3C/svg%3E')"
-          }} 
+          }}
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl flex flex-col items-center">
+      <div className="relative z-10 w-full max-w-7xl flex flex-col items-center p-2">
         {/* Header */}
-        <div className="mb-8 md:mb-12 relative flex flex-col items-center justify-center w-full text-center">
+        <div className="mb-8 md:mb-12 relative flex flex-col items-center justify-center w-full text-center gap-2">
           <h2 className="font-['JetBrains_Mono',monospace] text-[#00F0FF] text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-2 md:mb-4">
             <span className="bg-[#00F0FF] text-[#0A0A0A] px-1 py-0.5 ml-1">// Your Brand in the Wild</span>
           </h2>
           <h3 className="font-black text-4xl md:text-5xl lg:text-6xl text-[#FFFFFF] uppercase tracking-tighter leading-[0.9] text-center mix-blend-difference">
-            Don't just be seen.<br/>
-            <span className="text-transparent" style={{ WebkitTextStroke: '2px #FFFFFF' }}>Be part of the experience.</span>
+            Don't just be seen.<br />
+            <span className="text-transparent inline-block mt-2 md:mt-4" style={{ WebkitTextStroke: '2px #FFFFFF' }}>Be part of the experience.</span>
           </h3>
         </div>
 
         {/* The Mockup Gallery */}
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
-          
+
           {/* Gallery Item 1: Reach & Visitors */}
           <div className="flex flex-col group cursor-default">
             <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">

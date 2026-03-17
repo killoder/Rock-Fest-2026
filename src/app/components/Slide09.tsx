@@ -18,7 +18,7 @@ export function Slide09() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 h-full items-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-24 h-full items-center p-2">
         {/* Left Side: Headline & Next Step */}
         <div className="w-full lg:w-[60%] flex flex-col justify-center">
           <div className="border-l-8 border-[#00F0FF] pl-8">

@@ -25,7 +25,7 @@ export function Slide06() {
             // Partnership Levels
           </h2>
           <h3 className="font-black text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl text-[#FFFFFF] uppercase tracking-tighter leading-[0.9] mix-blend-difference whitespace-nowrap">
-            How do you <span className="text-transparent" style={{ WebkitTextStroke: '2px #FFFFFF' }}>want to play?</span>
+            Let's <span className="text-[#0A0A0A] bg-[#CCFF00] px-4 py-2 inline-block transform -rotate-2">ROCK</span> together.
           </h3>
         </div>
 

@@ -20,7 +20,7 @@ export function Slide04() {
         }} />
       </div>
 
-      <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center justify-center px-4">
+      <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col items-center justify-center px-8">
         
         {/* Headline */}
         <div className="relative mb-12 sm:mb-16 transform -rotate-3 z-30 group">
