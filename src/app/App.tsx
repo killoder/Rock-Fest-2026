@@ -32,8 +32,17 @@ const slides = [
 
 export default function App() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize(); // Check immediately on mount
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (isMobile) return; // Disable keyboard slide nav on mobile
     if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
       setCurrentSlideIndex((prev) => Math.min(prev + 1, slides.length - 1));
     } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
@@ -47,6 +56,22 @@ export default function App() {
   }, [handleKeyDown]);
 
   const CurrentSlide = slides[currentSlideIndex];
+
+  if (isMobile) {
+    return (
+      <main className="w-full min-h-screen bg-[#0A0A0A] selection:bg-[#CCFF00] selection:text-[#0A0A0A] overflow-x-hidden">
+        <div className="flex flex-col w-full">
+          {slides.map((SlideComponent, idx) => (
+            <div key={idx} className="w-full min-h-screen relative border-b border-[#E0E0E0]/10 last:border-0 flex flex-col justify-center">
+              <SlideWrapper>
+                <SlideComponent />
+              </SlideWrapper>
+            </div>
+          ))}
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="w-full h-screen bg-[#0A0A0A] selection:bg-[#CCFF00] selection:text-[#0A0A0A] overflow-hidden">

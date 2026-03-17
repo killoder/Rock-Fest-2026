@@ -67,7 +67,7 @@ export function Slide11() {
       shadow: "shadow-[8px_10px_0px_#CCFF00]"
     },
     {
-      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/rewin321.webp",
+      src: "https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Music%20(5).JPG",
       alt: "Guitar Performance",
       caption: "PURE CHAOS",
       rotation: "rotate-[-3deg]",
