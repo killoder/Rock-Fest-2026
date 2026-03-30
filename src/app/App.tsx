@@ -33,6 +33,7 @@ const slides = [
 export default function App() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const wheelLockRef = useRef(false);
 
   useEffect(() => {
@@ -57,6 +58,16 @@ export default function App() {
   }, [handleKeyDown]);
 
   useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(Boolean(document.fullscreenElement));
+    };
+
+    handleFullscreenChange();
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+  }, []);
+
+  useEffect(() => {
     if (isMobile) return;
 
     const handleWheel = (e: WheelEvent) => {
@@ -79,6 +90,17 @@ export default function App() {
     window.addEventListener('wheel', handleWheel, { passive: true });
     return () => window.removeEventListener('wheel', handleWheel);
   }, [isMobile]);
+
+  const toggleFullscreen = useCallback(async () => {
+    if (typeof document === 'undefined') return;
+
+    if (document.fullscreenElement) {
+      await document.exitFullscreen();
+      return;
+    }
+
+    await document.documentElement.requestFullscreen();
+  }, []);
 
   const CurrentSlide = slides[currentSlideIndex];
 
@@ -114,6 +136,21 @@ export default function App() {
               ← Arrow keys or mouse wheel →
             </p>
           </div>
+        </div>
+      )}
+
+      {currentSlideIndex === 0 && (
+        <div className="fixed top-6 right-6 z-[200]">
+          <button
+            type="button"
+            onClick={() => void toggleFullscreen()}
+            className="border border-[#CCFF00]/60 bg-[#0A0A0A]/80 px-4 py-2 text-[#CCFF00] backdrop-blur-md rounded-none mix-blend-difference transition-all duration-300 hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-[0_0_18px_rgba(204,255,0,0.25)]"
+            aria-label={isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen'}
+          >
+            <span className="font-['JetBrains_Mono',monospace] text-[10px] uppercase tracking-[0.24em] whitespace-nowrap">
+              {isFullscreen ? '[ Exit Fullscreen ]' : '[ Fullscreen ]'}
+            </span>
+          </button>
         </div>
       )}
 

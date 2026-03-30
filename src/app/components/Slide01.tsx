@@ -35,7 +35,7 @@ export function Slide01() {
         {/* Hooks - Top Block */}
         <div className="flex flex-col items-center gap-3 w-full max-w-4xl text-center font-['JetBrains_Mono',monospace] text-[#FFFFFF] text-xs sm:text-sm md:text-base font-bold tracking-[0.2em] uppercase">
            <div className="px-6 py-2 border border-[#00F0FF]/40 bg-[#0A0A0A]/60 backdrop-blur-sm shadow-[4px_4px_0px_#00F0FF]">
-             <span className="text-[#00F0FF]">_ </span> The lake is about to get a lot louder.
+             <span className="text-[#00F0FF]">- </span> The lake is about to get a lot louder <span className="text-[#00F0FF]"> -</span>
            </div>
         </div>
 
