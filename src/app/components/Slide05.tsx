@@ -22,7 +22,7 @@ export function Slide05() {
 
       <div className="relative z-10 w-full max-w-7xl flex flex-col items-center p-2">
         {/* Header */}
-        <div className="mb-8 md:mb-12 relative flex flex-col items-center justify-center w-full text-center gap-2">
+        <div className="mb-6 md:mb-10 relative flex flex-col items-center justify-center w-full text-center gap-2">
           <h2 className="font-['JetBrains_Mono',monospace] text-[#00F0FF] text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-2 md:mb-4">
             <span className="bg-[#00F0FF] text-[#0A0A0A] px-1 py-0.5 ml-1">// Your Brand in the Wild</span>
           </h2>
@@ -37,7 +37,7 @@ export function Slide05() {
 
           {/* Gallery Item 1: Reach & Visitors */}
           <div className="flex flex-col group cursor-default">
-            <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
+            <div className="relative h-58 w-full aspect-rectangle border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
                 src="https://arypjtkzteqwlkdlirmr.supabase.co/storage/v1/object/public/Sherlock%20Rock%20Fest/WEBP/Slide6.webp"
                 alt="Main Stage LED Screen"
@@ -57,7 +57,7 @@ export function Slide05() {
 
           {/* Gallery Item 2: Heavy Promotions */}
           <div className="flex flex-col group cursor-default">
-            <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
+            <div className="relative h-58 w-full aspect-rectangle border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Fan wearing a festival t-shirt"
@@ -76,7 +76,7 @@ export function Slide05() {
 
           {/* Gallery Item 3: Tangible ROI */}
           <div className="flex flex-col group cursor-default">
-            <div className="relative w-full aspect-square border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
+            <div className="relative h-58 w-full aspect-rectangle border-2 border-[#FFFFFF] bg-[#0A0A0A] overflow-hidden mb-4 group-hover:border-[#00F0FF] transition-colors duration-300">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1643139863038-7355941e9e89?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Festival Brand Zone Tent"

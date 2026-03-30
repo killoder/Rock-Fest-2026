@@ -31,7 +31,7 @@ export function Slide07() {
 
       {/* Content Area */}
       <div className="relative z-30 w-full max-w-7xl mx-auto px-6 sm:px-12 md:px-16 pt-[40vh] pb-16 md:py-24 flex flex-col justify-end min-h-screen">
-        <h2 className="font-black text-6xl md:text-8xl lg:text-[9vw] text-[#FFFFFF] uppercase tracking-tighter leading-none mb-12 mix-blend-difference">
+        <h2 className="font-black text-6xl md:text-8xl lg:text-[8vw] text-[#FFFFFF] uppercase tracking-tighter leading-none mb-12 mix-blend-difference">
           Why <br className="hidden md:block"/>
           <span className="text-[#0A0A0A] bg-[#CCFF00] px-4 py-2 inline-block transform -rotate-2">POGRADEC?</span>
         </h2>
