@@ -2,7 +2,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Slide10() {
   return (
-    <div className="relative min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center overflow-hidden w-full font-['Inter_Tight',sans-serif] px-4 py-20">
+    <div className="relative min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center overflow-hidden w-full font-['Inter_Tight',sans-serif] px-4">
 
       {/* Background with Faint Halftone & Film Grain */}
       <div className="absolute inset-0 z-0 opacity-40">
@@ -21,7 +21,7 @@ export function Slide10() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl h-[80vh] flex items-center justify-center">
+      <div className="relative z-10 w-full max-w-7xl h-[80vh] flex items-center justify-center mb-12">
 
         {/* Image 1: Motion Blur Crowd (Background Left) */}
         <div className="absolute left-[2%] sm:left-[5%] top-[15%] sm:top-[10%] w-[70%] sm:w-[45%] aspect-video rotate-[-12deg] z-10 shadow-[20px_20px_0px_rgba(0,0,0,0.9)] mix-blend-luminosity opacity-80 group hover:z-50 hover:opacity-100 hover:rotate-0 hover:scale-105 transition-all duration-300">
