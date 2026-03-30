@@ -7,7 +7,7 @@ export function SlideWrapper({ children }: { children: ReactNode }) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, margin: "-10%" }}
-      className="relative w-full overflow-hidden"
+      className="relative w-full h-full overflow-hidden"
     >
       {/* Smooth entry effect instead of shake */}
       <motion.div

@@ -41,7 +41,7 @@ export function Slide01() {
 
         {/* Huge Brutalist Title - Centered & Visible */}
         <div className="relative w-full flex flex-col items-center justify-center overflow-visible my-auto">
-           <h1 className="font-['Inter_Tight',sans-serif] font-black text-[15vw] leading-[0.8] tracking-[-0.02em] text-[#FFFFFF] uppercase text-center w-full select-none mix-blend-difference">
+           <h1 className="font-['Inter_Tight',sans-serif] font-black text-[13vw] leading-[0.8] tracking-[-0.02em] text-[#FFFFFF] uppercase text-center w-full select-none mix-blend-difference">
              ROCK FEST<br/>
              <span className="relative inline-block text-[#FFFFFF]">
                2026
@@ -65,7 +65,7 @@ export function Slide01() {
         </div>
 
         {/* Data/Location - Bottom Block */}
-        <div className="flex flex-col items-center justify-center p-6 md:p-8 border-4 border-[#00F0FF] bg-[#0A0A0A]/80 backdrop-blur-md text-[#FFFFFF] font-['JetBrains_Mono',monospace] w-full max-w-3xl transform -rotate-2 hover:rotate-0 transition-transform duration-300 shadow-[-8px_8px_0px_#00F0FF]">
+        <div className="flex flex-col items-center justify-center p-4 md:p-6 border-4 border-[#00F0FF] bg-[#0A0A0A]/80 backdrop-blur-md text-[#FFFFFF] font-['JetBrains_Mono',monospace] w-full max-w-3xl transform -rotate-2 hover:rotate-0 transition-transform duration-300 shadow-[-8px_8px_0px_#00F0FF] mb-2">
            <div className="flex flex-col sm:flex-row gap-8 sm:gap-16 items-center text-xl md:text-3xl font-bold uppercase tracking-wider">
              <div className="flex flex-col items-center">
                <span className="text-xs md:text-sm font-normal text-[#00F0FF] mb-2 tracking-[0.25em]">// LOCATION //</span>

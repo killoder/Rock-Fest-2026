@@ -47,7 +47,7 @@ export function Slide03() {
           </div>
 
           {/* Matrix Item 2 */}
-          <div className="flex flex-col items-center max-w-[300px] text-center group md:mt-16">
+          <div className="flex flex-col items-center max-w-[300px] text-center group">
             <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full border-[10px] border-[#00F0FF] bg-[#0A0A0A] flex items-center justify-center shadow-[0_0_30px_rgba(0,240,255,0.2)] group-hover:shadow-[0_0_50px_rgba(0,240,255,0.6)] group-hover:scale-105 transition-all duration-500 mb-8 z-10">
               {/* Scanline inside circle */}
               <div className="absolute inset-0 rounded-full overflow-hidden pointer-events-none">

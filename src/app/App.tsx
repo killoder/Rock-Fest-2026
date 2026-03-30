@@ -123,7 +123,7 @@ export default function App() {
   return (
     <main className="w-full h-screen bg-[#0A0A0A] selection:bg-[#CCFF00] selection:text-[#0A0A0A] overflow-hidden">
       {/* We use key={currentSlideIndex} to force a remount and trigger SlideWrapper animations */}
-      <div className="w-full h-full overflow-y-auto overflow-x-hidden relative">
+      <div className="w-full h-full overflow-hidden relative">
         <SlideWrapper key={currentSlideIndex}>
           <CurrentSlide />
         </SlideWrapper>
