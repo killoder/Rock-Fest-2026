@@ -107,17 +107,17 @@ export default function App() {
         </SlideWrapper>
       </div>
 
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[200]">
-        {currentSlideIndex < 2 && (
-          <div className="absolute right-full top-1/2 mr-4 -translate-y-1/2 pointer-events-none">
-            <div className="border border-[#E0E0E0]/20 bg-[#0A0A0A]/80 px-4 py-2 backdrop-blur-md rounded-none shadow-[0_0_24px_rgba(10,10,10,0.35)]">
-              <p className="font-['JetBrains_Mono',monospace] text-[10px] uppercase tracking-[0.24em] text-[#E0E0E0]/80 whitespace-nowrap">
-                ← Arrow keys or mouse wheel →
-              </p>
-            </div>
+      {currentSlideIndex < 2 && (
+        <div className="fixed bottom-6 left-6 z-[200] pointer-events-none">
+          <div className="border border-[#E0E0E0]/20 bg-[#0A0A0A]/80 px-4 py-2 backdrop-blur-md rounded-none shadow-[0_0_24px_rgba(10,10,10,0.35)]">
+            <p className="font-['JetBrains_Mono',monospace] text-[10px] uppercase tracking-[0.24em] text-[#E0E0E0]/80 whitespace-nowrap">
+              ← Arrow keys or mouse wheel →
+            </p>
           </div>
-        )}
+        </div>
+      )}
 
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[200]">
         {/* Minimal Navigation Indicators */}
         <div className="flex gap-2 p-3 bg-[#0A0A0A]/80 backdrop-blur-md border border-[#E0E0E0]/20 rounded-none mix-blend-difference">
           {slides.map((_, idx) => (
