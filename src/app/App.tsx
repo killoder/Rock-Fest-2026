@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Slide01 } from './components/Slide01';
 import { Slide02 } from './components/Slide02';
 import { Slide03 } from './components/Slide03';
@@ -33,6 +33,7 @@ const slides = [
 export default function App() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const wheelLockRef = useRef(false);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
@@ -48,12 +49,36 @@ export default function App() {
     } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
       setCurrentSlideIndex((prev) => Math.max(prev - 1, 0));
     }
-  }, []);
+  }, [isMobile]);
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
+
+  useEffect(() => {
+    if (isMobile) return;
+
+    const handleWheel = (e: WheelEvent) => {
+      if (Math.abs(e.deltaY) < 24 || wheelLockRef.current) return;
+
+      wheelLockRef.current = true;
+      setCurrentSlideIndex((prev) => {
+        if (e.deltaY > 0) {
+          return Math.min(prev + 1, slides.length - 1);
+        }
+
+        return Math.max(prev - 1, 0);
+      });
+
+      window.setTimeout(() => {
+        wheelLockRef.current = false;
+      }, 450);
+    };
+
+    window.addEventListener('wheel', handleWheel, { passive: true });
+    return () => window.removeEventListener('wheel', handleWheel);
+  }, [isMobile]);
 
   const CurrentSlide = slides[currentSlideIndex];
 
@@ -82,20 +107,32 @@ export default function App() {
         </SlideWrapper>
       </div>
 
-      {/* Minimal Navigation Indicators */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[200] flex gap-2 p-3 bg-[#0A0A0A]/80 backdrop-blur-md border border-[#E0E0E0]/20 rounded-none mix-blend-difference">
-        {slides.map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => setCurrentSlideIndex(idx)}
-            className={`w-4 h-1.5 transition-all duration-300 ${
-              idx === currentSlideIndex 
-                ? 'bg-[#CCFF00] shadow-[0_0_8px_#CCFF00]' 
-                : 'bg-[#E0E0E0]/30 hover:bg-[#E0E0E0]/60'
-            }`}
-            aria-label={`Go to slide ${idx + 1}`}
-          />
-        ))}
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[200]">
+        {currentSlideIndex < 2 && (
+          <div className="absolute right-full top-1/2 mr-4 -translate-y-1/2 pointer-events-none">
+            <div className="border border-[#E0E0E0]/20 bg-[#0A0A0A]/80 px-4 py-2 backdrop-blur-md rounded-none shadow-[0_0_24px_rgba(10,10,10,0.35)]">
+              <p className="font-['JetBrains_Mono',monospace] text-[10px] uppercase tracking-[0.24em] text-[#E0E0E0]/80 whitespace-nowrap">
+                ← Arrow keys or mouse wheel →
+              </p>
+            </div>
+          </div>
+        )}
+
+        {/* Minimal Navigation Indicators */}
+        <div className="flex gap-2 p-3 bg-[#0A0A0A]/80 backdrop-blur-md border border-[#E0E0E0]/20 rounded-none mix-blend-difference">
+          {slides.map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setCurrentSlideIndex(idx)}
+              className={`w-4 h-1.5 transition-all duration-300 ${
+                idx === currentSlideIndex 
+                  ? 'bg-[#CCFF00] shadow-[0_0_8px_#CCFF00]' 
+                  : 'bg-[#E0E0E0]/30 hover:bg-[#E0E0E0]/60'
+              }`}
+              aria-label={`Go to slide ${idx + 1}`}
+            />
+          ))}
+        </div>
       </div>
     </main>
   );
